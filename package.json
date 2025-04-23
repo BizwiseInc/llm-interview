@@ -1,0 +1,26 @@
+{
+  "name": "llm-interview",
+  "version": "1.0.0",
+  "description": "Interview boilerplate with Express, TypeScript, and OpenAI integration",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "ts-node-dev --respawn src/server.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.19",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "openai": "^4.28.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0"
+  }
+}
